@@ -35,6 +35,7 @@ body{
 
     section{
         width: 30.4rem;
+        min-height: 28rem;
         border-radius: 0px 0px .8rem .8rem;
         
         margin-inline: auto;
@@ -106,10 +107,58 @@ body{
         color: var(--desaturated-dark-blue);
     }
 
-    button{
+    .btn-enable{
         width: 2.7rem;
         height: 2.7rem;
         
         border-radius: 10rem;
     }
+
+    .btn-disable{
+        width: 2.7rem;
+        height: 2.7rem;
+        background-color: var(--grayish-blue);
+
+        border-radius: 10rem;
+    }
+
+    .share{
+        width: 304px;
+        height: 69px;
+        border-radius: 0 0 .8rem .8rem;
+
+        position: absolute;
+        top: 437px;
+
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 3.3rem;
+
+        background-color: var(--very-dark-grayish-blue);
+
+
+    }
+
+    .share p{
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px;
+
+        color: var(--light-grayish-blue);
+    }
+
+    .social-icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .social-icons img{
+        margin-left: .8rem;
+    }
 }
+
