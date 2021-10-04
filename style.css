@@ -189,4 +189,14 @@ section{
         border-radius: 0 .8rem .8rem 0;
 
     }
+
+    .title{
+        font-size: 2.1rem;
+        line-height: 3rem;
+    }
+
+    .text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
 }
